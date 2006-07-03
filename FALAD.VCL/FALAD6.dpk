@@ -1,0 +1,51 @@
+package FALAD6;
+
+{$R *.res}
+{$R 'CalendarView.dcr'}
+{$R 'FloatEdit.dcr'}
+{$R 'ImageButton.dcr'}
+{$R 'MemTree.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Farsi/Arabic LanguageApplication Development'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  dbrtl,
+  vcldb,
+  adortl,
+  bdertl,
+  ibxpress;
+
+contains
+  CalendarView in 'CalendarView.pas',
+  DateEdit in 'DateEdit.pas',
+  FDialogs in 'FDialogs.pas',
+  FloatEdit in 'FloatEdit.pas',
+  ImageButton in 'ImageButton.pas',
+  MemTree in 'MemTree.pas',
+  Utils in 'Utils.pas';
+
+end.

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FALAD", "FALAD.csproj", "{28772EB4-07F9-43EB-A29B-FFC0875CF305}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{28772EB4-07F9-43EB-A29B-FFC0875CF305}.Debug.ActiveCfg = Debug|.NET
+		{28772EB4-07F9-43EB-A29B-FFC0875CF305}.Debug.Build.0 = Debug|.NET
+		{28772EB4-07F9-43EB-A29B-FFC0875CF305}.Release.ActiveCfg = Release|.NET
+		{28772EB4-07F9-43EB-A29B-FFC0875CF305}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

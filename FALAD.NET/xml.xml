@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FALAD</name>
+    </assembly>
+    <members>
+        <member name="T:FALAD.Web.HijriCalendar">
+            <summary>
+            Summary description for WebCustomControl1.
+            </summary>
+        </member>
+        <member name="M:FALAD.Web.HijriCalendar.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Render this control to the output parameter specified.
+            </summary>
+            <param name="output"> The HTML writer to write out to </param>
+        </member>
+        <member name="T:FALAD.HijriDate">
+            <summary>
+             <code>HijriDate</code> is Object Oriented reimplementation of FarsiDateTime 
+             in FALAD for Delphi. 
+            </summary>
+        </member>
+        <member name="M:FALAD.HijriDate.#ctor(FALAD.HijriDate)">
+            <summary>
+            Initializes a new instance of the HijriDate structure to the specified HijriDate parameter.
+            </summary>
+            <param name="date"> Hijri DateTime from which the HijriDate instance is created.</param>
+        </member>
+        <member name="M:FALAD.HijriDate.#ctor(System.DateTime)">
+            <summary>
+            Initializes a new instance of the HijriDate structure to the specified Georgian DateTime.
+            </summary>
+            <param name="date"> Georgian DateTime from which the HijriDate instance is created.</param>
+        </member>
+        <member name="M:FALAD.HijriDate.#ctor">
+            <summary>
+            Initializes a new instance of the HijriDate structure to today.
+            </summary>
+        </member>
+        <member name="M:FALAD.HijriDate.#ctor(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Initializes a new instance of the HijriDate structure to the specified Hijri year, month, and day.
+            </summary>
+            <param name="HijriDay"> The 4 digit Hijri year (1 through 9999). Use 1383 not 83</param>
+            <param name="HijriMonth"> The month (1 through 12). </param>
+            <param name="HijriYear"> The day (1 through the number of days in month). </param>
+        </member>
+        <member name="M:FALAD.HijriDate.ToString">
+            <summary>
+            Converts the value of this instance to its equivalent short Hijri date string representation.
+            </summary>
+            <returns>A string containing the numeric month, the numeric day of the month, and the year equivalent to the Hijri date value of this instance.</returns>
+        </member>
+        <member name="P:FALAD.HijriDate.Day">
+            <summary>
+            Gets and sets the Hijri day of the Hijri month represented by this instance.
+            </summary>
+        </member>
+        <member name="P:FALAD.HijriDate.Month">
+            <summary>
+            Gets and sets the Hijri month component of the date represented by this instance.
+            </summary>
+        </member>
+        <member name="P:FALAD.HijriDate.Year">
+            <summary>
+            Gets and sets the Hijri year component of the date represented by this instance.
+            </summary>
+        </member>
+        <member name="P:FALAD.HijriDate.DayOfWeek">
+            <summary>
+            Gets the day of the week represented by this instance.
+            </summary>
+        </member>
+        <member name="P:FALAD.HijriDate.GDate">
+            <summary>
+            Gets and sets the Georgian date represented by this instance.
+            </summary>
+        </member>
+        <member name="P:FALAD.HijriDate.Today">
+            <summary>
+            Gets the current date in Hijri Shamsi.
+            </summary>
+        </member>
+    </members>
+</doc>
